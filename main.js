@@ -3,10 +3,10 @@ var mybutton = document.querySelector('button');
 var myHeading = document.querySelector('h1');
 myImage.onclick = function(){
 	var src = myImage.getAttribute('src');
-	if(src === 'images/beach.jpg'){
-		myImage.setAttribute('src','images/daffodil.jpg');
+	if(src === 'beach.jpg'){
+		myImage.setAttribute('src','daffodil.jpg');
 	}else{
-		myImage.setAttribute('src','images/beach.jpg');
+		myImage.setAttribute('src','beach.jpg');
 	}
 }
 
